@@ -1,0 +1,129 @@
+<HeaderView/>
+
+<view class="bander">
+	<image class="pic" src="/images/psbanner.jpg" mode="widthFix"></image>
+</view>
+
+<view class="psBox">
+	<view class="psBoxTit">
+		专业软件技能
+	</view>
+	<view class="psBoxCon">
+		<view class="psBoxConOne">
+			<view class="item">
+				<image src="/images/photoshop.png1.png"></image>
+				<view class="txt">photoshop</view>
+			</view>
+			<view class="item">
+				<image src="/images/id.png3.png"></image>
+				<view class="txt">indesign</view>
+			</view>
+			<view class="item">
+				<image src="/images/ai.png2.png"></image>
+				<view class="txt">lllustrator</view>
+			</view>
+			<view class="item">
+				<image src="/images/acrobat.png6.png"></image>
+				<view class="txt">acrobat</view>
+			</view>
+			<view class="item">
+				<image src="/images/CDR.png4.png"></image>
+				<view class="txt">coreldraw</view>
+			</view>
+		</view>
+	</view>
+</view>
+<view class="psBox">
+	<view class="psBoxTit">
+		平面视觉设计
+	</view>
+	<view class="psBoxCon">
+		<image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
+		<view class="text">
+			<view>人像精修</view>
+			<view>商业广告片调色</view>
+			<view>商业海报级视觉精修</view>
+			<view>卡通人物制作</view>
+			<view>2.5D插画制作</view>
+			<view>3D文字视觉特效制作</view>
+			<view>平面广告创意</view>
+			<view>合成特效制作</view>
+		</view>
+	</view>
+</view>
+<view class="psBox">
+	<view class="psBoxTit">
+		商业平面广告
+	</view>
+	<view class="psBoxCon">
+		<image class="pic" mode="widthFix" src="/images/psmajor03.jpg"></image>
+		<view class="text">
+			<view>展架广告设计</view>
+			<view>展览展示广告设计</view>
+			<view>户外卖场广告设计</view>
+			<view>户外广告设计</view>
+			<view>LED屏幕广告设计</view>
+			<view>微信信息流广告设计</view>
+			<view>折页设计</view>
+			<view>会员卡设计</view>
+			<view>招贴设计</view>
+			<view>灯箱海报设计</view>
+		</view>
+	</view>
+</view>
+<view class="psBox">
+	<view class="psBoxTit">
+		logo及字体设计
+	</view>
+	<view class="psBoxCon">
+		<image class="pic" mode="widthFix" src="/images/psmajor04.jpg"></image>
+		<view class="text">
+			<view>LOGO设计</view>
+			<view>商业卡通形象设计</view>
+			<view>商业海报级视觉精修</view>
+			<view>包装字体设计</view>
+			<view>餐饮字体设计</view>
+			<view>商业活动字体设计</view>
+			<view>VI形象展示设计</view>
+		</view>
+	</view>
+</view>
+<view class="psBox">
+	<view class="psBoxTit">
+		VI系统项目设计
+	</view>
+	<view class="psBoxCon">
+		<image class="pic" mode="widthFix" src="/images/psmajor05.jpg"></image>
+		<view class="text">
+			<view>VI企业形象设计</view>
+			<view>商业类品牌设计与推广</view>
+			<view>CIS品牌塑造</view>
+			<view>主题餐饮形象设计</view>
+			<view>主题民宿酒店形象设计</view>
+			<view>商品品牌视觉设计</view>
+			<view>包装系列化设计</view>
+			<view>连锁经营加盟形象规范</view>
+		</view>
+	</view>
+</view>
+<view class="psBox">
+	<view class="psBoxTit">
+		商业广告策划
+	</view>
+	<view class="psBoxCon">
+		<image class="pic" mode="widthFix" src="/images/psmajor06.jpg"></image>
+		<view class="text">
+			<view>企业产品市场分析</view>
+			<view>商品市场用户需求分析</view>
+			<view>商业广告活动企划案</view>
+			<view>商业广告活动文案创意</view>
+			<view>自媒体推销创意</view>
+			<view>线上广告活动视觉设计</view>
+			<view>商品画册设计</view>
+			<view>线下广告活动物料设计</view>
+		</view>
+	</view>
+</view>
+
+<FooterView/>
+	

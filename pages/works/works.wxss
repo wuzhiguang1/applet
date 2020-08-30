@@ -1,0 +1,59 @@
+
+/* works-title */
+.works-title{
+  width: 1224rpx;
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #FFFFFF;
+  border-bottom: 1rpx solid rgba(0, 0, 0, 0.3);
+  
+}
+
+.works-title .works-items{
+  width: 133rpx;
+  text-align: center;
+  padding: 0 10rpx;
+  font-size: 29rpx;
+  position: relative;
+}
+.works-title .active{
+  color: #c2160a; 
+}
+
+/* worksMain */
+
+.worksMain{
+  padding: 10rpx 0 50rpx;
+  background: #F1EFF1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.works-item{
+  margin: 0rpx 11rpx;
+  background: #FFFFFF;
+  margin-top: 30rpx;
+  
+}
+.works-item .pic{
+  width: 350rpx;
+  height: 291rpx;
+  border-radius: 10rpx;
+}
+.works-item .title{
+  max-width: 330rpx;
+  font-size: 30rpx;
+  margin: 20rpx 10rpx ;
+  box-sizing: border-box;
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 超出部分不显示 */
+  text-overflow: ellipsis; /* 超出部分显示为... */
+}
+.works-item .info{
+  font-size: 26rpx;
+  color: #6F6C6E;
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx 10rpx ;
+}

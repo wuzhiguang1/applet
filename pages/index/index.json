@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "header":"/Components/header/header",
+    "FooterView":"/Components/FooterView/FooterView",
+    "PubTitle":"/Components/PubTitle/PubTitle"
+  }
+}

@@ -1,0 +1,26 @@
+<HeaderView/>
+
+<view class="dybamic container">
+  <view class="dyMain container">
+    <navigator class="dyItem" wx:for="{{datalist}}" wx:key="id" url="/pages/details/details?id={{item.id}}">
+      <view class="pic">
+        <image src="{{item.picurl}}"></image>
+      </view>
+      <view class="txt">
+        <view class="title">
+          {{item.title}}
+        </view>
+        <view class="info">
+        <view >
+          <text>作者：</text>{{item.author}} 
+        </view>
+        <view>
+          <text>时间</text>：{{item.posttime}} 
+        </view>    
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>
+
+<FooterView/>

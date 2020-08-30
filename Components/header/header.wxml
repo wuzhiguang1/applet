@@ -1,0 +1,11 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator  class="logo">
+      <image  class="pic" mode="heightFix" src="/images/logo.png" ></image>
+    </navigator>
+    <view class="service">
+      <button open-type="contact" class="btn"></button>
+      <image class="pic" mode="heightFix" src="/images/xiaoxi.png" ></image>
+    </view>
+  </view>
+</view>

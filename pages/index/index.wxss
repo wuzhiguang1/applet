@@ -1,0 +1,117 @@
+
+.bander{
+  width: 100%;
+  height: 295rpx;
+}
+.bander swiper{
+  height: 100%;
+  width: 100%;
+}
+.bander image{
+  height: 100%;
+}
+.major{
+  background-color: #ffffff;
+
+}
+.majorCon{
+  display: flex;
+  padding: 20rpx 0;
+}
+.majorCon navigator{
+  flex:1;
+  text-align: center;
+}
+.majorCon .pic{
+  height: 91rpx;
+  width: 91rpx;
+}
+.majorCon .txt{
+  font-size: 26rpx;
+  margin-top: 10rpx;
+}
+
+.works{
+  background: #EFF2FA;
+  padding:90rpx 0 70rpx;
+}
+.worksContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.worksContent .box{
+  width: 344rpx;
+  height: 214rpx;
+  margin-bottom: 10rpx;
+  position: relative;
+  text-align: center;
+}
+.worksContent .pic{
+  width: 100%;
+  height: 100%;
+}
+.worksContent .ceng{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #f1f2f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.worksContent .ceng .tit{
+  font-size: 34rpx;
+}
+.worksContent .ceng .line{
+  width: 60rpx;
+  height: 4rpx;
+  background: #ffffff;
+  margin: 10rpx 0 20rpx;
+}
+.worksContent .ceng .des{
+  font-size: 26rpx;
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 5rpx;
+}
+.dybamic{
+  padding: 90rpx 0 70rpx;
+}
+.dyItem{
+  display: flex;
+  padding: 15rpx 0;
+  border: 1rpx dashed #f4f4f4;
+}
+.dyItem .pic{
+  width: 230rpx;
+  height: 150rpx;
+}
+.dyItem .pic image{
+  width: 100%;
+  height: 100%;
+}
+.dyItem .txt{
+  width: 440rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left:25rpx ;
+}
+.dyItem .title{
+  font-size: 34rpx;
+  margin-top: 5rpx;
+}
+.dyItem .info{
+  font-size: 26rpx;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+}
+.dyItem .info text{
+  font-size: 22rpx;
+}

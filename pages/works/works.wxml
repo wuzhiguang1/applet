@@ -1,0 +1,27 @@
+<HeaderView/>
+
+<!-- <scroll-view scroll-x scroll-with-animation paging-enabled  >
+  <view class="works-title">
+    <navigator><view class="works-items active">全部</view></navigator>
+    <navigator  wx:for="{{workTitleLists}}" wx:key="id">
+      <view class="works-items">{{item.classname}}</view>
+    </navigator>
+    </view>
+</scroll-view> -->
+
+<view class="worksMain">
+ <view class="works-item" wx:for='{{workLists}}' wx:key="id">
+  <navigator url="/pages/details/details?id={{item.id}}" >
+    <image class="pic" src="{{item.picurl}}"></image>
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <view class="text">{{item.classname}}</view>  
+      <view class="views">👁 {{item.hits}}</view>  
+    </view>
+  </navigator>
+
+ </view>
+
+</view>
+
+<FooterView/>

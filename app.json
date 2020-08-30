@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/works/works",
+    "pages/dybamic/dybamic",
+    "pages/ps/ps",
+    "pages/details/details"
+    
+  ],
+  "usingComponents": {
+    "HeaderView":"/Components/header/header",
+    "FooterView":"/Components/FooterView/FooterView"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"/images/home.png",
+      "selectedIconPath":"/images/home-h.png"
+    }, {
+      "pagePath": "pages/works/works",
+      "text": "作品",
+      "iconPath":"/images/user.png",
+      "selectedIconPath":"/images/user-h.png"
+    }, {
+      "pagePath": "pages/dybamic/dybamic",
+      "text": "动态",
+      "iconPath":"/images/list.png",
+      "selectedIconPath":"/images/list-h.png"
+    }],
+    "borderStyle":"black",
+    "selectedColor":"#FE9132"
+
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#70a1ff",
+    "navigationBarTitleText": "清华学院",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

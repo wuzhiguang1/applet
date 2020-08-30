@@ -1,0 +1,27 @@
+.header{width: 750rpx; height: 90rpx;}
+.hdCon{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  padding: 0 26rpx; 
+  box-sizing: border-box;
+}
+.hdCon .logo,.service{
+  height: 50rpx;
+}
+.hdCon .pic{
+  height: 100%;
+}
+.service{
+  position: relative;
+  animation: animation linear 1s infinite alternate;
+}
+.service .btn{
+  position: absolute; 
+  width: 100%;
+  height: 100%; 
+  top: 0; 
+  right: 0;
+  opacity: 0;
+}

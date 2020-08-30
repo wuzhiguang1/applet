@@ -1,0 +1,13 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="title">【{{dataList.author}}】{{dataList.title}}</view>
+
+<view class="time">{{dataList.posttime}}</view>
+
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+
+<view class="Edit">
+（编辑：阿清）
+</view>
+
+
+<FooterView/>

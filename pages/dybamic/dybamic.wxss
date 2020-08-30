@@ -1,0 +1,38 @@
+
+.dybamic{
+  padding: 20rpx 0 ;
+  background: #ffffff;
+}
+.dyItem{
+  display: flex;
+  padding: 15rpx 0;
+  border: 1rpx dashed #f4f4f4;
+}
+.dyItem .pic{
+  width: 230rpx;
+  height: 150rpx;
+}
+.dyItem .pic image{
+  width: 100%;
+  height: 100%;
+}
+.dyItem .txt{
+  width: 440rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left:25rpx ;
+}
+.dyItem .title{
+  font-size: 34rpx;
+  margin-top: 5rpx;
+}
+.dyItem .info{
+  font-size: 26rpx;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+}
+.dyItem .info text{
+  font-size: 22rpx;
+}

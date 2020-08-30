@@ -1,0 +1,9 @@
+.footer{
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.footer .pic {
+  width: 186rpx;
+  height: 49rpx;
+  padding: 30rpx 0 ;
+}

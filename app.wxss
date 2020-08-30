@@ -1,0 +1,5 @@
+.container{ padding: 0 26rpx; box-sizing: border-box;}
+@keyframes animation{
+  0%,100%{opacity: 1;}
+  25%,75%{opacity: 0;}
+}

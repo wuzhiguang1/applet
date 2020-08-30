@@ -1,0 +1,3 @@
+<view class="footer">
+  <image class="pic" src="/images/logo.png"></image>
+</view>

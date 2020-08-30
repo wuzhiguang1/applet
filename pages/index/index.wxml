@@ -1,0 +1,140 @@
+<HeaderView/>
+
+<view class="bander">
+  <swiper indicator-dots indicator-color="rgba(100,100, 100, .3)" indicator-active-color="#ffffff" autoplay interval='2000' circular>
+    <swiper-item>
+      <image mode="heightFix" src="/images/banner1.jpg"> </image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="heightFix" src="/images/banner2.jpg"> </image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="heightFix" src="/images/banner3.jpg"> </image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<scroll-view class="major" scroll-x>
+  <view class="majorCon">
+    <navigator url="/pages/ps/ps">
+      <image class="pic" src="/images/kecheng1.png"></image>
+      <view class="txt">平面设计</view>
+    </navigator>
+    <navigator url="/pages/ps/ps">
+      <image class="pic" src="/images/kecheng2.png"></image>
+      <view class="txt">室内设计</view>
+    </navigator>
+    <navigator url="/pages/ps/ps">
+      <image class="pic" src="/images/kecheng3.png"></image>
+      <view class="txt">ui设计</view>
+    </navigator>
+    <navigator url="/pages/ps/ps">
+      <image class="pic" src="/images/kecheng4.png"></image>
+      <view class="txt">影视设计</view>
+    </navigator>
+    <navigator url="/pages/ps/ps">
+      <image class="pic" src="/images/kecheng5.png"></image>
+      <view class="txt">Web设计</view>
+    </navigator> 
+  </view>
+</scroll-view>
+
+<view class="works container">
+  <!-- 自定义组件 -->
+  <PubTitle myTitle="学院作品" myUrl="/pages/works/works"></PubTitle>
+
+  <view class="worksContent container" >
+    <navigator class="box" url="/pages/details/details?id=60" >
+      <image class="pic" src="/images/xszp1.jpg"></image>
+      <view class="ceng ">
+        <view class="tit">UI设计作品</view>
+        <view class="line"></view>
+        <view class="des">UI design</view>
+      </view>
+    </navigator>
+    <navigator class="box" url="/pages/details/details?id=47">
+      <image class="pic" src="/images/xszp2.jpg"></image>
+      <view class="ceng ">
+        <view class="tit">室内设计作品</view>
+        <view class="line"></view>
+        <view class="des">Interior design</view>
+      </view>
+    </navigator>
+    <navigator class="box" url="/pages/details/details?id=35">
+      <image class="pic" src="/images/xszp3.jpg"></image>
+      <view class="ceng ">
+        <view class="tit">平面设计作品</view>
+        <view class="line"></view>
+        <view class="des">Graphic design</view>
+      </view>
+    </navigator>
+    <navigator class="box" url="/pages/details/details?id=54">
+      <image class="pic" src="/images/xszp4.jpg"></image>
+      <view class="ceng ">
+        <view class="tit">网页设计作品</view>
+        <view class="line"></view>
+        <view class="des">Web design</view>
+      </view>
+    </navigator>
+    <navigator class="box" url="/pages/details/details?id=40">
+      <image class="pic" src="/images/xszp5.jpg"></image>
+      <view class="ceng ">
+        <view class="tit">电商设计作品</view>
+        <view class="line"></view>
+        <view class="des">commerce design</view>
+      </view>
+    </navigator>
+    <navigator class="box" url="/pages/details/details?id=42">
+      <image class="pic" src="/images/xszp6.jpg"></image>
+      <view class="ceng ">
+        <view class="tit">影视后期作品</view>
+        <view class="line"></view>
+        <view class="des">Film later works</view>
+      </view>
+    </navigator>
+    <navigator class="box" url="/pages/details/details?id=60">
+      <image class="pic" src="/images/xszp7.jpg"></image>
+      <view class="ceng ">
+        <view class="tit">建筑景观作品</view>
+        <view class="line"></view>
+        <view class="des">Architectural</view>
+      </view>
+    </navigator>
+    <navigator class="box" url="/pages/details/details?id=60">
+      <image class="pic" src="/images/xszp8.jpg"></image>
+      <view class="ceng ">
+        <view class="tit">三维仿真作品</view>
+        <view class="line"></view>
+        <view class="des">3D works</view>
+      </view>
+    </navigator>
+
+  </view>
+</view>
+
+<view class="dybamic container">
+  <!-- 自定义组件 -->
+  <PubTitle myTitle="行业动态" myUrl="/pages/dybamic/dybamic"></PubTitle>
+  <view class="dyMain container">
+    <navigator class="dyItem" wx:for="{{datalist}}" wx:key="id" url="/pages/details/details?id={{item.id}}">
+      <view class="pic">
+        <image src="{{item.picurl}}"></image>
+      </view>
+      <view class="txt">
+        <view class="title">
+          {{item.title}}
+        </view>
+        <view class="info">
+        <view >
+          <text>作者：</text>{{item.author}} 
+        </view>
+        <view>
+          <text>时间</text>：{{item.posttime}} 
+        </view>    
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>
+
+<FooterView/>
